@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="itCampus.bb.Monitor.Client">
+</Property><Property Name="Projektmappendatei" Value="C:\Dokumente und Einstellungen\asixtus\Desktop\itCampus.bb.Monitor.Client\itCampus.bb.Monitor.Client\itCampus.bb.Monitor.Client.sln">
+</Property><Property Name="Date" Value="Dienstag, 24. August 2010">
+</Property><Property Name="Time" Value="09:01:33">
+</Property></Properties><Event ErrorLevel="1" Project="itCampus.bb.Monitor.Client" Source="itCampus.bb.Monitor.Client.csproj" Description="MSB2013: Der projektübergreifende Verweis mit der GUID {ACD63191-1242-44A4-9B9E-16E30DE9ABC3} konnte nicht konvertiert werden, weil keine gültige SLN-Datei gefunden wurde, die alle Projekte enthält.">
+</Event><Event ErrorLevel="1" Project="itCampus.bb.Monitor.Client" Source="itCampus.bb.Monitor.Client.csproj" Description="MSB2013: Der projektübergreifende Verweis mit der GUID {B69EDF33-97DE-4AE0-9314-9274ADFD2CBF} konnte nicht konvertiert werden, weil keine gültige SLN-Datei gefunden wurde, die alle Projekte enthält.">
+</Event><Event ErrorLevel="1" Project="itCampus.bb.Monitor.Client" Source="itCampus.bb.Monitor.Client.csproj" Description="MSB2013: Der projektübergreifende Verweis mit der GUID {007A24D9-D6CA-4EAF-AAEB-089656B9A096} konnte nicht konvertiert werden, weil keine gültige SLN-Datei gefunden wurde, die alle Projekte enthält.">
+</Event><Event ErrorLevel="1" Project="itCampus.bb.Monitor.Client" Source="itCampus.bb.Monitor.Client.csproj" Description="MSB2013: Der projektübergreifende Verweis mit der GUID {4F26ADC5-FB0B-4FF1-9EC2-AD14776F75A7} konnte nicht konvertiert werden, weil keine gültige SLN-Datei gefunden wurde, die alle Projekte enthält.">
+</Event><Event ErrorLevel="1" Project="itCampus.bb.Monitor.Client" Source="itCampus.bb.Monitor.Client.csproj" Description="MSB2013: Der projektübergreifende Verweis mit der GUID {DCEADC3E-D211-439E-8C35-DE4FB8C6E784} konnte nicht konvertiert werden, weil keine gültige SLN-Datei gefunden wurde, die alle Projekte enthält.">
+</Event><Event ErrorLevel="0" Project="itCampus.bb.Monitor.Client" Source="itCampus.bb.Monitor.Client.csproj" Description="Projekt erfolgreich konvertiert">
+</Event><Event ErrorLevel="3" Project="itCampus.bb.Monitor.Client" Source="itCampus.bb.Monitor.Client.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="itCampus.bb.Monitor.Client" Source="itCampus.bb.Monitor.Client.csproj" Description="Überprüfung abgeschlossen: Aktualisierung von Projektdateien nicht erforderlich.">
+</Event></UpgradeLog>

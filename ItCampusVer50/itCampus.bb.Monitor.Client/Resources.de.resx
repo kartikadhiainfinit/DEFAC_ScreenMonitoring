@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="FrontendView.CoachingPermission.Text.Granted">
+		<value>erteilt</value>
+	</data>
+	<data name="FrontendView.CoachingPermission.Text.NotGranted">
+		<value>nicht erteilt</value>
+	</data>
+	<data name="MainForm.MessageBox.Caption.InitializeError">
+		<value>Fehler beim Initialisieren des Monitors</value>
+	</data>
+	<data name="MainForm.MessageBox.Caption.DeviceDisconnected">
+		<value>Device getrennt</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.DeviceDisconnectedCalling">
+		<value>Das Device konnte nicht aufgebaut werden.</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.DeviceDisconnectedAssigned">
+		<value>Das Device wurde getrennt.</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.NormalClearing">
+		<value>Der Anruf wurde getrennt.</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.Busy">
+		<value>Die Rufnummer ist besetzt.</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.NoAnswer">
+		<value>Es wurde niemand erreicht.</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.WrongNumber">
+		<value>Die Rufnummer ist ungültig.</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.PSTNFailure">
+		<value>Die Gegenstelle ist gestört.</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.TelcoOverload">
+		<value>Die Vermittlungsstelle ist überlastet.</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.Reset">
+		<value>Der Anruf wurde zurückgesetzt.</value>
+	</data>
+	<data name="MainForm.MessageBox.Caption.AgentLost">
+		<value>Agent verloren</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.AgentLost">
+		<value>Der gecoachte Agent ging verloren.</value>
+	</data>
+	<data name="MainForm.MessageBox.Caption.ConnectionLost">
+		<value>Verbindung zum Dialer unterbrochen</value>
+	</data>
+	<data name="MainForm.MessageBox.Text.ConnectionLost">
+		<value>Der Monitor wird beendet, da die Verbindung zum Dialer getrennt wurde.</value>
+	</data>
+	<data name="MainForm.MessageBox.Caption.CallDeviceError">
+		<value>Fehler beim Aufbauen des Devices</value>
+	</data>
+	<data name="MainForm.MessageBox.Caption.AssignDeviceError">
+		<value>Fehler beim Zuweisen des Devices</value>
+	</data>
+	<data name="MainForm.MessageBox.Caption.StartCoachingError">
+		<value>Fehler beim Starten des Coaching</value>
+	</data>
+	<data name="SiteForm.Text.AddSite">
+		<value>Raum hinzufügen</value>
+	</data>
+	<data name="SiteForm.Text.EditSite">
+		<value>Raum bearbeiten</value>
+	</data>
+	<data name="SiteForm.MessageBox.Caption.CodeEmpty">
+		<value>Kein Code angegeben</value>
+	</data>
+	<data name="SiteForm.MessageBox.Caption.CodeExists">
+		<value>Code bereits vergeben</value>
+	</data>
+	<data name="SiteForm.MessageBox.Caption.FileNotFound">
+		<value>Datei nicht gefunden</value>
+	</data>
+	<data name="SiteForm.MessageBox.Text.CodeEmpty">
+		<value>Es muss ein Code angegeben werden.</value>
+	</data>
+	<data name="SiteForm.MessageBox.Text.CodeExists">
+		<value>Der angegebene Code ist bereits vergeben.</value>
+	</data>
+	<data name="SiteForm.MessageBox.Text.FileNotFound">
+		<value>Das Hintergrundbild konnte nicht gefunden werden.</value>
+	</data>
+</root>

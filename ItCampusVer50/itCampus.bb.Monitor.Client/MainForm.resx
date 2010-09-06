@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="menuItemFileEnd.Text" xml:space="preserve">
+    <value>&amp;End</value>
+  </data>
+  <data name="menuItemFile.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="menuItemViewRefresh.Text" xml:space="preserve">
+    <value>&amp;Refresh</value>
+  </data>
+  <data name="menuItemView.Text" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingSilentMonitoringOneWay.Text" xml:space="preserve">
+    <value>&amp;OneWay</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingSilentMonitoringMixed.Text" xml:space="preserve">
+    <value>&amp;Mixed</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingSilentMonitoring.Text" xml:space="preserve">
+    <value>Start Silent &amp;Monitoring</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingWhisperingOneWay.Text" xml:space="preserve">
+    <value>&amp;OneWay</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingWhisperingMixed.Text" xml:space="preserve">
+    <value>&amp;Mixed</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingWhispering.Text" xml:space="preserve">
+    <value>Start &amp;Whispering</value>
+  </data>
+  <data name="menuItemFrontendStartScreenSilentCoaching.Text" xml:space="preserve">
+    <value>Start Scree&amp;n Silent Monitoring</value>
+  </data>
+  <data name="menuItemFrontendStopCoaching.Text" xml:space="preserve">
+    <value>&amp;Stop Silent Monitoring/Whispering</value>
+  </data>
+  <data name="menuItemFrontend.Text" xml:space="preserve">
+    <value>&amp;Agent</value>
+  </data>
+  <data name="menuItemSiteAdd.Text" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="menuItemSiteEdit.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="menuItemSiteRemove.Text" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="menuItemSite.Text" xml:space="preserve">
+    <value>&amp;Site</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingSilentMonitoringOneWay.Text" xml:space="preserve">
+    <value>&amp;OneWay</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingSilentMonitoringMixed.Text" xml:space="preserve">
+    <value>&amp;Mixed</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingSilentMonitoring.Text" xml:space="preserve">
+    <value>Start Silent &amp;Monitoring</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingWhisperingOneWay.Text" xml:space="preserve">
+    <value>&amp;OneWay</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingWhisperingMixed.Text" xml:space="preserve">
+    <value>&amp;Mixed</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingWhispering.Text" xml:space="preserve">
+    <value>Start &amp;Whispering</value>
+  </data>
+  <data name="menuItemDeviceScreenSilentCoaching.Text" xml:space="preserve">
+    <value>Start Scree&amp;n Silent Monitoring</value>
+  </data>
+  <data name="menuItemDeviceStopCoaching.Text" xml:space="preserve">
+    <value>&amp;Stop Silent Monitoring/Whispering</value>
+  </data>
+  <data name="menuItemDevice.Text" xml:space="preserve">
+    <value>&amp;Device</value>
+  </data>
+  <data name="menuItemHelpInfo.Text" xml:space="preserve">
+    <value>&amp;Info</value>
+  </data>
+  <data name="menuItemHelp.Text" xml:space="preserve">
+    <value>&amp;?</value>
+  </data>
+  <metadata name="contextMenuFrontend.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>120, 17</value>
+  </metadata>
+  <data name="menuItemFrontendStartCoachingSilentMonitoringOneWayCtx.Text" xml:space="preserve">
+    <value>&amp;OneWay</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingSilentMonitoringMixedCtx.Text" xml:space="preserve">
+    <value>&amp;Mixed</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingSilentMonitoringCtx.Text" xml:space="preserve">
+    <value>Start Silent &amp;Monitoring</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingWhisperingOneWayCtx.Text" xml:space="preserve">
+    <value>&amp;OneWay</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingWhisperingMixedCtx.Text" xml:space="preserve">
+    <value>&amp;Mixed</value>
+  </data>
+  <data name="menuItemFrontendStartCoachingWhisperingCtx.Text" xml:space="preserve">
+    <value>Start &amp;Whispering</value>
+  </data>
+  <data name="menuItemFrontendStartScreenSilentCoachingCtx.Text" xml:space="preserve">
+    <value>Start Scree&amp;n Silent Monitoring</value>
+  </data>
+  <data name="menuItemFrontendStopCoachingCtx.Text" xml:space="preserve">
+    <value>&amp;Stop Silent Monitoring/Whispering</value>
+  </data>
+  <metadata name="contextMenuSite.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>280, 17</value>
+  </metadata>
+  <data name="menuItemSiteAddCtx.Text" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="menuItemSiteEditCtx.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="menuItemSiteRemoveCtx.Text" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <metadata name="contextMenuDevice.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>414, 17</value>
+  </metadata>
+  <data name="menuItemDeviceStartCoachingSilentMonitoringOneWayCtx.Text" xml:space="preserve">
+    <value>&amp;OneWay</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingSilentMonitoringMixedCtx.Text" xml:space="preserve">
+    <value>&amp;Mixed</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingSilentMonitoringCtx.Text" xml:space="preserve">
+    <value>Start Silent &amp;Monitoring</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingWhisperingOneWayCtx.Text" xml:space="preserve">
+    <value>&amp;OneWay</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingWhisperingMixedCtx.Text" xml:space="preserve">
+    <value>&amp;Mixed</value>
+  </data>
+  <data name="menuItemDeviceStartCoachingWhisperingCtx.Text" xml:space="preserve">
+    <value>Start &amp;Whispering</value>
+  </data>
+  <data name="menuItemDeviceScreenSilentCoachingCtx.Text" xml:space="preserve">
+    <value>Start Scree&amp;n Silent Monitoring</value>
+  </data>
+  <data name="menuItemDeviceStopCoachingCtx.Text" xml:space="preserve">
+    <value>&amp;Stop Silent Monitoring/Whispering</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolBar.Appearance" type="System.Windows.Forms.ToolBarAppearance, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolBarButtonNavi.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolBarButtonNavi.ToolTipText" xml:space="preserve">
+    <value>Navigation Bar</value>
+  </data>
+  <data name="toolBarButtonPreview.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolBarButtonPreview.ToolTipText" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="toolBarButtonDetails.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="toolBarButtonDetails.ToolTipText" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="toolBarButtonDevice.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="toolBarButtonDevice.ToolTipText" xml:space="preserve">
+    <value>Coaching Mode</value>
+  </data>
+  <metadata name="contextMenuFrontendFilter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>562, 17</value>
+  </metadata>
+  <data name="toolBarButtonFrontendFilter.ImageIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="toolBarButtonFrontendFilter.ToolTipText" xml:space="preserve">
+    <value>Agent Filter</value>
+  </data>
+  <data name="toolBar.DropDownArrows" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAW
+        CwAAAk1TRnQBSQFMAgEBBgEAAQkBAAEEAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wsAAewBAAHsNwAB7AEA
+        AewBAAHsBQAB7AoAAuwlAAHsAQAB7A4AB/8BAAIHLwACBwEAAf8DAAf/AQACBy8AAQcB7AEAAf8DAAf/
+        AQACBzIAAf8DAAb/AQADBwHsKwABBwH/AgAC/wQABf8BAAUHAewpAAEHAf8BAAH/BwAE/wEAAewGBwHs
+        KAAB/wIAA/8BAAH/AwAD/zEAAewBAAL/AQAC/wEAAf8DAAr/KwAB/wEAA/8CAAH/AwAK/ycAAgcNAAr/
+        JwABBwHsAQAB/wsAB/8tAAH/CwAH/wEAAQcoAAP/DAAH/6IAAewBAAHsFAABBwHsDP8VAAHsAQAB7AEA
+        AewFAAHsAgAOBAIAAQcB7AH/CfwC/wIACv8FAAHsAQAB7A4AAQQD/wEECP8BBAIAAQcB7AH/CQcC/wIA
+        B/8EAAHsDQACBwEAAf8DAAEEA/8BBAj/AQQCAAEHAewB/wn8Av8CAAb/AQAB7AIHAewBAAHsDAABBwHs
+        AQAB/wMAAQQB/wEAAf8BBAL/BAAC/wEEAgABBwHsDP8CAAX/AQAB7AIHAf4C7BAAAf8DAAEEA/8BBAj/
+        AQQCAAEHAewB/wL8Cf8CAAX/AQAEBwHsAQcLAAHsAgAC/wQAAQQB/wEAAf8BBAL/BAAC/wEEAgABBwHs
+        DP8CAAX/AQABBwH+AgcB7AEHCgAB7AEAAf8HAAEEA/8BBAj/AQQCAAEHDewCAAX/AQAB7AL+AQcC7AkA
+        AewBAAH/CAABBAH/AQAB/wEEAv8EAAL/AQQCAAEHAewM/wIABv8BAAHsAgcB7AkAAewBAAH/CQABBAP/
+        AQQI/wEEAgABBwHsAf8BAAH/BwAC/wIAB/8OAAH/CgABBAP/AQQI/wEEAgABBwHsAf8BBwr/AgAK/wcA
+        AgcNAA4EAgABBwHsAf8BAAH/BwAC/wIAB/8KAAEHAewBAAH/CwAOBAIAAQcB7Az/AgAH/wEAAQcLAAH/
+        GwABBw3sAgAH/woAA/9LAAFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEBAQABAQYAAQEWAAP/AQAB9QFV
+        Af8BDwQAAVUBRQEAAQ8EAAFfAYMBAAEPBAAB/wEBAQABDwQAAf8BAQEAAQ8EAAH+AQEBAAEHBAAB/AEC
+        AQABAwQAAfgCAAEBBAAB+AcAAcACAAEPBAABgAIAAQ8FAAEQAQABDwQAAQEB/wEAAQ8EAAEBAf8BAAEf
+        BAABgwH/AQABPwQAAccB/wEAAX8EAAL/AgAC/wH1AVUC/wMAAQwBVQFFAYABAQMAAQgBXwGDAYABAQMA
+        AQEB/wEBAYABAQMAAQMB/wEBAYABAQMAAQMB/wEBAYABAQMAAQMB/gEDAYABAQMAAQMB/AEHAYABAQMA
+        AQMB+AE/AYABAQMAAQcBwAF/AYABAQMAAQ8BgAH/AYABAQMAAQ8BAQH/AYABAQMAAQ8BAQH/AYABAQMA
+        AR8BAQP/AwABPwGDA/8DAAF/AccB/ws=
+</value>
+  </data>
+  <data name="toolBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolBar.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 28</value>
+  </data>
+  <data name="toolBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolBar.TextAlign" type="System.Windows.Forms.ToolBarTextAlign, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;toolBar.Name" xml:space="preserve">
+    <value>toolBar</value>
+  </data>
+  <data name="&gt;&gt;toolBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolBar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="statusBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="statusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 537</value>
+  </data>
+  <data name="statusBarPanelLog.Name" xml:space="preserve">
+    <value>statusBarPanelLog</value>
+  </data>
+  <data name="statusBarPanelLog.ToolTipText" xml:space="preserve">
+    <value>Last Monitor Message</value>
+  </data>
+  <data name="statusBarPanelLog.Width" type="System.Int32, mscorlib">
+    <value>476</value>
+  </data>
+  <data name="statusBarPanelState.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="statusBarPanelState.Name" xml:space="preserve">
+    <value>statusBarPanelState</value>
+  </data>
+  <data name="statusBarPanelState.Text" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="statusBarPanelState.ToolTipText" xml:space="preserve">
+    <value>Current State</value>
+  </data>
+  <data name="statusBarPanelDate.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="statusBarPanelDate.Name" xml:space="preserve">
+    <value>statusBarPanelDate</value>
+  </data>
+  <data name="statusBarPanelDate.Text" xml:space="preserve">
+    <value>4/10/2006</value>
+  </data>
+  <data name="statusBarPanelTime.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="statusBarPanelTime.Name" xml:space="preserve">
+    <value>statusBarPanelTime</value>
+  </data>
+  <data name="statusBarPanelTime.Text" xml:space="preserve">
+    <value>2:00 PM</value>
+  </data>
+  <data name="statusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 16</value>
+  </data>
+  <data name="statusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="statusBar.Text" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Name" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="naviBarButtonFrontends.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhIAAgAPQAAMjIyBEREQAAAERERCIiIt3d3bu7u4iIiP///6qqqlVVVczM/zMzZpkAM5mZzP+Z
+        zP/MZv9mAMxmmf/MAMwzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAA
+        AAAgACAAAAX/ICCOQSAMYwqUp+qmRGEcQ+DGc/3eBYIUiYEA1vsFhztSEahAsgY+JjIJICQKMtoQRwtk
+        hVRRYJAoK4Sx6DFxnu4EC4Hi3ER41c1BMwyANwWADAJWWDmAAg2ASQIOPgyPkGNlbEINlg0PbimMDo0I
+        C6ACEHJ0AggPqA+Jb52tPoAQf4ARgAgSlpojnK2dAhM+EcHCo7erL7u8vhO/CBDOELTFuSLIrcrLzMIC
+        0qy8vdjg2tzH3t/gy+K43d7X4cHb6uTl7djp07qdDNbn6O8Siovy5aPXjwIiY930ORDEb0IEg+MS5mM4
+        gQI2ChDjSVxI0WJFjPAQylP4SJnHdCJdPXAi2bFfNFwKAi6caNJlSFIxVTJiWdOhP5hz5hxb2dLnS5xB
+        Fx3qKQ5pTj59fJ18hxSqzn5Vrb45FPSpixAAOw==
+</value>
+  </data>
+  <data name="naviBarButtonFrontends.Text" xml:space="preserve">
+    <value>Agents</value>
+  </data>
+  <data name="naviBarButtonCampaigns.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhIAAgAPIAADMzZpmZzAAAAICAgAD//wD/AMDAwM7t3CH5BAEAAAcALAAAAAAgACAAAAPCeLrc
+        /jDKSWsTOOvNO1YCII5kaZ4CCARs675wCxiAMAyhGZzruYs2nI/3KxWDOSOpMCoCmD3gLfkU/QpMbLTK
+        PE5XsXB4VvuKsivo8joqeIXVc5FAaGoB9S0ynt/RRX0jdXVvSYMreYJRiQSFYGKQMjR7eIJOlpUkjolW
+        RJydUnBKQzojlKOlqWVCka07k2Y8srKns7Yke0wGu7tkgDO8NDQltbe3xcazSB7MzRg3CjfS09TV1tLR
+        19rb0Bbe3+Dh3gkAOw==
+</value>
+  </data>
+  <data name="naviBarButtonCampaigns.Text" xml:space="preserve">
+    <value>Campaigns</value>
+  </data>
+  <data name="naviBarButtonConferences.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhIAAgAPIAAAAAAP///8DAwACAgICAgP//AAD//87t3CH5BAEAAAcALAAAAAAgACAAAAPReLrc
+        /jDKSesbwD4gbtYNEHTNgIGLKIyMeaIHNwat+2nyui7ui886Rc90o6iAgs7QZ9SNkoTDElCMAAhIAUHZ
+        AxgM1QeB+tSauwbbBFAocMxbgi1NDIfY7rh2jKFjklSBglRYeFd7UVR0bwGNjSKOkQGGBJUfAERJkpCS
+        kW9XRZgyno0CVCuRWqBhp5Kmp6aoI2NUEpydpW+AFiKnrY6vgbyQMr9PlryPK8XLgiCtzG/IMNDNwjAp
+        xdMoUXfXC90R4ZUU5ArhDugg6unm5e7YIAkAOw==
+</value>
+  </data>
+  <data name="naviBarButtonConferences.Text" xml:space="preserve">
+    <value>Conferences</value>
+  </data>
+  <data name="naviBarButtonSites.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhIAAgAPIAAP///4CAgAAAAI/A4f8AAP//AAD/AM7t3CH5BAEAAAcALAAAAAAgACAAAAO+eLrc
+        /jDKSWsTOOvNO1YCII5kaZ4CeK4sKQRB2M7mG49wHuD6ztqhXYBAJAgBgYKycETBgsiiEYlcMqnOW2Dg
+        E22/pO9gXAIiuWEuGqfu7czfXlv+lb6f57F+vN3r60V3Wm6EdGEAcH5/inxrXoh4cTpzk5I5kFpcBpsG
+        YkOBamQukZqcnnahA2WRWI9NritwrVSvtLF4Xj08Oi1mNL8ivsA0wsO9uMbHMR7MzRgwCoXS0znR1Ndu
+        Ftrb3N3bCQA7
+</value>
+  </data>
+  <data name="naviBarButtonSites.Text" xml:space="preserve">
+    <value>Sites</value>
+  </data>
+  <data name="naviBarButtonDevices.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhIAAgAPIAAMDAwAAAAP//////AICAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAgACAAAAPUCLrc
+        /jDK+YK9lFoxeseZE3hCWXpgOHoEYQ0mGmRr1wZcfX6z9A4t1wAgJHF4kZHF9SIGCDzCbtAT2WYe5y0H
+        PVIhT6xHNtLCUGBApwQdl11tb3UhBuIE7Sx8TZqL2XaAbnkmLnRqV4BFWU96Nwp/eIGSY2YdRI91Loo1
+        lzc1mEwAU5N5njctpxgmXnZjQ0F7n2GRpJWxN46iY6yvobE/QTN1Rju/uBcgFgqvMCXHuKIiPc140cJz
+        FdRj19I020DI2SrUwOMhdDOf6BrL7O/w8fLzAAkAOw==
+</value>
+  </data>
+  <data name="naviBarButtonDevices.Text" xml:space="preserve">
+    <value>Devices</value>
+  </data>
+  <data name="naviBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="naviBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 505</value>
+  </data>
+  <data name="naviBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;naviBar.Name" xml:space="preserve">
+    <value>naviBar</value>
+  </data>
+  <data name="&gt;&gt;naviBar.Type" xml:space="preserve">
+    <value>itCampus.bb.Controls.NaviBar, bbControls, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9f69a3b365e1704b</value>
+  </data>
+  <data name="&gt;&gt;naviBar.Parent" xml:space="preserve">
+    <value>panelNavi</value>
+  </data>
+  <data name="&gt;&gt;naviBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelNavi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelNavi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="panelNavi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 509</value>
+  </data>
+  <data name="panelNavi.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelNavi.Name" xml:space="preserve">
+    <value>panelNavi</value>
+  </data>
+  <data name="&gt;&gt;panelNavi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelNavi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelNavi.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="splitterVertical.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="splitterVertical.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="splitterVertical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="splitterVertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>3, 509</value>
+  </data>
+  <data name="splitterVertical.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;splitterVertical.Name" xml:space="preserve">
+    <value>splitterVertical</value>
+  </data>
+  <data name="&gt;&gt;splitterVertical.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitterVertical.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitterVertical.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 28</value>
+  </data>
+  <data name="panelPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>685, 509</value>
+  </data>
+  <data name="panelPage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelPage.Name" xml:space="preserve">
+    <value>panelPage</value>
+  </data>
+  <data name="&gt;&gt;panelPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelPage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="timerRefresh.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>116, 54</value>
+  </metadata>
+  <metadata name="timerStopCoaching.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>231, 54</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>792, 553</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEACABoBQAAJgAAACAgAAABAAgAqAgAAI4FAAAoAAAAEAAAACAAAAABAAgAAAAAAEAB
+        AAAAAAAAAAAAAAAAAAAAAAAALx/MANjV9QBwZdwAv7rvAP///wBJO9IAl4/mAH1z3wBWSdYA5uT5AIqB
+        4gCknekAY1fZAMzI8gA8Lc8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQAAAQEBAQE
+        BAQEBAQEBAQEAAAEBA4AAAAAAAACBAQEBAAABAQCAAAGBgYGDAkEBAQAAAQECwAADQQEBAQEBAQEAAAE
+        BAkAAAoEBAQEBAQEBAAABAQECAAFDQ0NAQQEBAQAAAQEBAoAAAAAAAABBAQEAAAEBAQBAAAHDQ0NCQQE
+        BAAABAQEBA4ACAQEBAQEBAQAAAQEBAQHAAAGBgYGAwQEAAAEBAQEAgAAAAAAAAUEBAAABAQEBAQEBAQE
+        BAQEBAQAAAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//KAAAACAAAABAAAAAAQAIAAAA
+        AACABAAAAAAAAAAAAAAAAAAAAAAAAC8fzADY1fUAYlbZAJeP5gCyrOwASTvSAP///wBwZdwA8vH8AL+6
+        7wCknekAfXPfAFZJ1gDm5PkAPC3PAIqB4gDMyPIAvbXvAGNX2QD37/8AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYG
+        AAAAAAYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYAAAAABgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYG
+        BgYGBgAAAAAGBgYGBgwAAAAAAAAAAAAAAAAFBAYGBgYGBgYGAAAAAAYGBgYGDgAAAAAAAAAAAAAAAAAO
+        BgYGBgYGBgYAAAAABgYGBgYHAAAAAAAAAAAAAAAAAAAQBgYGBgYGBgAAAAAGBgYGBgoAAAAABQMDAwMD
+        AwMDDAoGBgYGBgYGAAAAAAYGBgYGAQAAAAAFBgYGBgYGBgYICQYGBgYGBgYAAAAABgYGBgYGDgAAAAAB
+        BgYGBgYGBgYGBgYGBgYGBgAAAAAGBgYGBgYLAAAAAAoGBgYGBgYGBgYGBgYGBgYGAAAAAAYGBgYGBgQA
+        AAAABwYGBgYGBgYGBgYGBgYGBgYAAAAABgYGBgYGDQAAAAAOBgYGBgYGBgYGBgYGBgYGBgAAAAAGBgYG
+        BgYGBQAAAAAQBgYGBgYGBgYGBgYGBgYGAAAAAAYGBgYGBgYLAAAAABIDAwMDAwMJBgYGBgYGBgYAAAAA
+        BgYGBgYGBgQAAAAAAAAAAAAAAAADBgYGBgYGBgAAAAAGBgYGBgYGCAAAAAAAAAAAAAAAAAwGBgYGBgYG
+        AAAAAAYGBgYGBgYGDAAAAAAFAgICAgICAgYGBgYGBgYAAAAABgYGBgYGBgYPAAAAAAsGBgYGBgYGBgYG
+        BgYGBgAAAAAGBgYGBgYGBgkAAAAABQYGBgYGBgYGBgYGBgYGAAAAAAYGBgYGBgYGCAAAAAAADQYGBgYG
+        BgYGBgYGBgYAAAAABgYGBgYGBgYGDAAAAAAEBgYGBgYGBgYGBgYGBgAAAAAGBgYGBgYGBgYDAAAAABID
+        AwMDAwMDAQYGBgYGAAAAAAYGBgYGBgYGBhAAAAAAAAAAAAAAAAAABAYGBgYAAAAABgYGBgYGBgYGCAAA
+        AAAAAAAAAAAAAAALBgYGBgAAAAAGBgYGBgYGBg0FAAAAAAAAAAAAAAAAAAUGBgYGAAAAAAYGBgYGBgYG
+        BgYGBgYGBgYGBgYGBgYGBgYGBgYAAAAABgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgAAAAAGBgYG
+        BgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>640, 480</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Elsbeth Monitor</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Name" xml:space="preserve">
+    <value>mainMenu</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFile.Name" xml:space="preserve">
+    <value>menuItemFile</value>
+  </data>
+  <data name="&gt;&gt;menuItemFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFileEnd.Name" xml:space="preserve">
+    <value>menuItemFileEnd</value>
+  </data>
+  <data name="&gt;&gt;menuItemFileEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemView.Name" xml:space="preserve">
+    <value>menuItemView</value>
+  </data>
+  <data name="&gt;&gt;menuItemView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemViewRefresh.Name" xml:space="preserve">
+    <value>menuItemViewRefresh</value>
+  </data>
+  <data name="&gt;&gt;menuItemViewRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontend.Name" xml:space="preserve">
+    <value>menuItemFrontend</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoring.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingSilentMonitoring</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoring.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringOneWay.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingSilentMonitoringOneWay</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringOneWay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringMixed.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingSilentMonitoringMixed</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringMixed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhispering.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingWhispering</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhispering.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingOneWay.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingWhisperingOneWay</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingOneWay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingMixed.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingWhisperingMixed</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingMixed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartScreenSilentCoaching.Name" xml:space="preserve">
+    <value>menuItemFrontendStartScreenSilentCoaching</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartScreenSilentCoaching.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStopCoaching.Name" xml:space="preserve">
+    <value>menuItemFrontendStopCoaching</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStopCoaching.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemSite.Name" xml:space="preserve">
+    <value>menuItemSite</value>
+  </data>
+  <data name="&gt;&gt;menuItemSite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteAdd.Name" xml:space="preserve">
+    <value>menuItemSiteAdd</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteEdit.Name" xml:space="preserve">
+    <value>menuItemSiteEdit</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteRemove.Name" xml:space="preserve">
+    <value>menuItemSiteRemove</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDevice.Name" xml:space="preserve">
+    <value>menuItemDevice</value>
+  </data>
+  <data name="&gt;&gt;menuItemDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoring.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingSilentMonitoring</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoring.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringOneWay.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingSilentMonitoringOneWay</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringOneWay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringMixed.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingSilentMonitoringMixed</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringMixed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhispering.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingWhispering</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhispering.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingOneWay.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingWhisperingOneWay</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingOneWay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingMixed.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingWhisperingMixed</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingMixed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceScreenSilentCoaching.Name" xml:space="preserve">
+    <value>menuItemDeviceScreenSilentCoaching</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceScreenSilentCoaching.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStopCoaching.Name" xml:space="preserve">
+    <value>menuItemDeviceStopCoaching</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStopCoaching.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemHelp.Name" xml:space="preserve">
+    <value>menuItemHelp</value>
+  </data>
+  <data name="&gt;&gt;menuItemHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemHelpInfo.Name" xml:space="preserve">
+    <value>menuItemHelpInfo</value>
+  </data>
+  <data name="&gt;&gt;menuItemHelpInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuFrontend.Name" xml:space="preserve">
+    <value>contextMenuFrontend</value>
+  </data>
+  <data name="&gt;&gt;contextMenuFrontend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringCtx.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingSilentMonitoringCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringOneWayCtx.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingSilentMonitoringOneWayCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringOneWayCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringMixedCtx.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingSilentMonitoringMixedCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingSilentMonitoringMixedCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingCtx.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingWhisperingCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingOneWayCtx.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingWhisperingOneWayCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingOneWayCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingMixedCtx.Name" xml:space="preserve">
+    <value>menuItemFrontendStartCoachingWhisperingMixedCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartCoachingWhisperingMixedCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartScreenSilentCoachingCtx.Name" xml:space="preserve">
+    <value>menuItemFrontendStartScreenSilentCoachingCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStartScreenSilentCoachingCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStopCoachingCtx.Name" xml:space="preserve">
+    <value>menuItemFrontendStopCoachingCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemFrontendStopCoachingCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuSite.Name" xml:space="preserve">
+    <value>contextMenuSite</value>
+  </data>
+  <data name="&gt;&gt;contextMenuSite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteAddCtx.Name" xml:space="preserve">
+    <value>menuItemSiteAddCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteAddCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteEditCtx.Name" xml:space="preserve">
+    <value>menuItemSiteEditCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteEditCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteRemoveCtx.Name" xml:space="preserve">
+    <value>menuItemSiteRemoveCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemSiteRemoveCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuDevice.Name" xml:space="preserve">
+    <value>contextMenuDevice</value>
+  </data>
+  <data name="&gt;&gt;contextMenuDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringCtx.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingSilentMonitoringCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringOneWayCtx.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingSilentMonitoringOneWayCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringOneWayCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringMixedCtx.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingSilentMonitoringMixedCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingSilentMonitoringMixedCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingCtx.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingWhisperingCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingOneWayCtx.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingWhisperingOneWayCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingOneWayCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingMixedCtx.Name" xml:space="preserve">
+    <value>menuItemDeviceStartCoachingWhisperingMixedCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStartCoachingWhisperingMixedCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceScreenSilentCoachingCtx.Name" xml:space="preserve">
+    <value>menuItemDeviceScreenSilentCoachingCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceScreenSilentCoachingCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStopCoachingCtx.Name" xml:space="preserve">
+    <value>menuItemDeviceStopCoachingCtx</value>
+  </data>
+  <data name="&gt;&gt;menuItemDeviceStopCoachingCtx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonNavi.Name" xml:space="preserve">
+    <value>toolBarButtonNavi</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonNavi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonPreview.Name" xml:space="preserve">
+    <value>toolBarButtonPreview</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonDetails.Name" xml:space="preserve">
+    <value>toolBarButtonDetails</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonSeparator1.Name" xml:space="preserve">
+    <value>toolBarButtonSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonDevice.Name" xml:space="preserve">
+    <value>toolBarButtonDevice</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonSeparator2.Name" xml:space="preserve">
+    <value>toolBarButtonSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonFrontendFilter.Name" xml:space="preserve">
+    <value>toolBarButtonFrontendFilter</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonFrontendFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuFrontendFilter.Name" xml:space="preserve">
+    <value>contextMenuFrontendFilter</value>
+  </data>
+  <data name="&gt;&gt;contextMenuFrontendFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList.Name" xml:space="preserve">
+    <value>imageList</value>
+  </data>
+  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelLog.Name" xml:space="preserve">
+    <value>statusBarPanelLog</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelState.Name" xml:space="preserve">
+    <value>statusBarPanelState</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelDate.Name" xml:space="preserve">
+    <value>statusBarPanelDate</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelTime.Name" xml:space="preserve">
+    <value>statusBarPanelTime</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonFrontends.Name" xml:space="preserve">
+    <value>naviBarButtonFrontends</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonFrontends.Type" xml:space="preserve">
+    <value>itCampus.bb.Controls.NaviBarButton, bbControls, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9f69a3b365e1704b</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonCampaigns.Name" xml:space="preserve">
+    <value>naviBarButtonCampaigns</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonCampaigns.Type" xml:space="preserve">
+    <value>itCampus.bb.Controls.NaviBarButton, bbControls, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9f69a3b365e1704b</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonConferences.Name" xml:space="preserve">
+    <value>naviBarButtonConferences</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonConferences.Type" xml:space="preserve">
+    <value>itCampus.bb.Controls.NaviBarButton, bbControls, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9f69a3b365e1704b</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonSites.Name" xml:space="preserve">
+    <value>naviBarButtonSites</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonSites.Type" xml:space="preserve">
+    <value>itCampus.bb.Controls.NaviBarButton, bbControls, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9f69a3b365e1704b</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonDevices.Name" xml:space="preserve">
+    <value>naviBarButtonDevices</value>
+  </data>
+  <data name="&gt;&gt;naviBarButtonDevices.Type" xml:space="preserve">
+    <value>itCampus.bb.Controls.NaviBarButton, bbControls, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9f69a3b365e1704b</value>
+  </data>
+  <data name="&gt;&gt;timerRefresh.Name" xml:space="preserve">
+    <value>timerRefresh</value>
+  </data>
+  <data name="&gt;&gt;timerRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerStopCoaching.Name" xml:space="preserve">
+    <value>timerStopCoaching</value>
+  </data>
+  <data name="&gt;&gt;timerStopCoaching.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
